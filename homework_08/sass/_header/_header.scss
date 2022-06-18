@@ -1,0 +1,42 @@
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	
+	.header-block{
+		height: 65px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.navigations{
+			display: flex;
+
+			.navigations-item{
+				margin-right: 28px;
+				a{
+					color: black;
+				}
+			}
+		}
+
+		.button{
+			
+			.button-one{
+				color: white;
+				background-color: #EF7F04;
+				font-size: 13px;
+				padding: 10px 18px;
+				border-radius: 3px;
+				margin-right: 14px;
+			}
+			.button-two{
+				color: white;
+				background-color: #3B3A63;
+				font-size: 13px;
+				padding: 10px 18px;
+				border-radius: 3px;
+
+			}
+		}
+	}
+}
