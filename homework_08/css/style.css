@@ -61,7 +61,7 @@ h2 {
   flex-wrap: wrap;
 }
 .services-list .card__item {
-  width: 45%;
+  width: 49.5%;
   border-radius: 3px;
   margin-bottom: 10px;
   padding: 55px 5px 38px 50px;
@@ -204,7 +204,7 @@ input {
   border-radius: 3px;
   padding-left: 16px;
 }
-.right__feedback .input__item .input__item_check {
+.right__feedback .input__item .input__item-check {
   width: 25px;
   height: 25px;
   margin-top: 12px;
