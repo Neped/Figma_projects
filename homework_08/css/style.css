@@ -143,3 +143,97 @@ h2 {
   line-height: 42px;
   color: #EF7F04;
 }
+input {
+  border: none;
+}
+
+.containermain {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url("../img/jpeg/mainjpeg.png");
+  padding-bottom: 65px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-info {
+  padding-top: 70px;
+  display: flex;
+}
+.main .main-info__left {
+  padding: 60px 52px 0px 85px;
+}
+.main .left__advanteges {
+  display: flex;
+}
+
+.right__feedback {
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 405px;
+  padding: 45px 40px 65px 40px;
+  text-align: center;
+}
+.right__feedback .imager {
+  position: absolute;
+  left: -90px;
+  bottom: -60px;
+}
+.right__feedback .right__feedback-title {
+  margin-bottom: 24px;
+}
+.right__feedback-title {
+  font-size: 18px;
+  color: #2F2F51;
+  margin-bottom: 25px;
+}
+.right__feedback .input__item {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  height: 40px;
+  color: blueviolet;
+  background: #E2E2E2;
+  border-radius: 3px;
+  padding-left: 16px;
+}
+.right__feedback .input__item .input__item_check {
+  width: 25px;
+  height: 25px;
+  margin-top: 12px;
+}
+.right__feedback .input__checkbox {
+  display: flex;
+}
+.right__feedback .input__checkbox label {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.input__item::-moz-placeholder {
+  color: #424268;
+}
+
+.input__item:-ms-input-placeholder {
+  color: #424268;
+}
+
+.input__item::placeholder {
+  color: #424268;
+}
+
+.right__feedback-button {
+  padding: 19px 40px;
+  background: #EF7F04;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
