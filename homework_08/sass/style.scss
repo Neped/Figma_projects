@@ -1,4 +1,8 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
 
 @import '_header/_header.scss';
-@import './_services/_services.scss'
+@import './_services/_services.scss';
+@import './_product/product'
 
