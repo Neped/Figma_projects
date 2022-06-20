@@ -1,9 +1,9 @@
 
 .product {
-	max-width: 1200;
+
+	width: 1150px;
 	margin: 0 auto;
-	position: relative;
-	background-color: #f2f2f2;
+	
 
 	&__title {
 		margin-bottom: 42px;
@@ -35,7 +35,7 @@
 
 	.block {
 		display: flex;
-		justify-content:space-around;
+		
 		height: 460px;
 
 		

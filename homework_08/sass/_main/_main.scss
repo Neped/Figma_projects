@@ -18,15 +18,18 @@ input{
 	background-size: cover;
 
 	&-info{
+		
 		padding-top: 70px;
 		display: flex;
 	}
 
 	.main-info__left{
+		
 		padding: 60px 52px 0px 85px;
 	}
 
 	.left__advanteges{
+		color: #FFFFFF;
 		display: flex;
 	}
 }
@@ -65,7 +68,7 @@ input{
 		border-radius: 3px;
 		padding-left: 16px;
 
-		.input__item-check{
+		.input__item_check{
 			width: 25px;
 			height: 25px;
 			margin-top: 12px;

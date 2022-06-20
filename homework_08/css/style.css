@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
 }
 
 .container {
@@ -100,10 +101,8 @@ h2 {
 }
 
 .product {
-  max-width: 1200;
+  width: 1150px;
   margin: 0 auto;
-  position: relative;
-  background-color: #f2f2f2;
 }
 .product__title {
   margin-bottom: 42px;
@@ -126,7 +125,6 @@ h2 {
 }
 .product .block {
   display: flex;
-  justify-content: space-around;
   height: 460px;
 }
 .product .block__img {
@@ -170,6 +168,7 @@ input {
   padding: 60px 52px 0px 85px;
 }
 .main .left__advanteges {
+  color: #FFFFFF;
   display: flex;
 }
 
@@ -204,7 +203,7 @@ input {
   border-radius: 3px;
   padding-left: 16px;
 }
-.right__feedback .input__item .input__item-check {
+.right__feedback .input__item .input__item_check {
   width: 25px;
   height: 25px;
   margin-top: 12px;
