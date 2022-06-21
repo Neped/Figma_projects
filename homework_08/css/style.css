@@ -40,7 +40,7 @@ body {
 
 .containersn {
   max-width: 1200px;
-  margin: 105px auto;
+  margin: 0 auto;
 }
 
 h2 {
@@ -126,6 +126,7 @@ h2 {
 .product .block {
   display: flex;
   height: 460px;
+  background: #FFFFFF;
 }
 .product .block__img {
   width: 100%;
@@ -133,7 +134,7 @@ h2 {
   height: auto;
 }
 .product .block__description {
-  height: 50%;
+  margin: 74px 34px 52px 34px;
 }
 .product .block__title {
   font-weight: 700;

@@ -34,7 +34,7 @@
 	.block {
 		display: flex;
 		height: 460px;
-
+		background: #FFFFFF;
 		
 
 		&__img {
@@ -45,9 +45,10 @@
 		}
 
 		&__description {
-			height: 50%;
-			padding: 74px 34px 52px 34;
 			
+			margin: 74px 34px 52px 34px;
+			
+		
 		}
 
 		&__title {
