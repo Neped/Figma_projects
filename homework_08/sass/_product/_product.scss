@@ -1,7 +1,9 @@
 
 .product {
+	font-size: 18px;
 	width: 1150px;
 	margin: 0 auto;
+	margin-top: 104px;
 	
 	&__title {
 		margin-bottom: 42px;
@@ -13,20 +15,29 @@
 
 	.navigation {
 		
+
 		&__nav {
 			align-items: center;
 			display: flex;
 			justify-content: center;
 			margin-bottom: 42px;
-	
 		}
 
-		&__item {
-			margin-right: 28px;
+		&__item{
+		
 		}
 
 		&__link {
+			width: 130px;
+			padding: 8px 26px;
 			color: black;
+		}
+
+		&__link:hover {
+			background: #EF7F04;
+			border-radius: 3px;
+			color: #FFFFFF;
+			font-weight: 700;
 		}
 	}
 
@@ -40,15 +51,11 @@
 		&__img {
 		width: 100%;
 		display: block;
-		height: auto;
-		
+		height: auto;	
 		}
 
 		&__description {
-			
-			margin: 74px 34px 52px 34px;
-			
-		
+			padding: 74px 34px 52px 34px;
 		}
 
 		&__title {
@@ -56,12 +63,18 @@
 			font-size: 36px;
 			line-height: 42px;
 			color: #EF7F04;	
+			margin-bottom: 50px;
 		}
 
-		&__item {}
+		&__item {
+			line-height: 21px;
+			margin-bottom: 60px;
+		
+		}
 
 		&__sizes {
-			
-		}
+			font-weight: 700;
+			line-height: 42px;
+		} 
 	}
 }
