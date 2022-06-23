@@ -107,6 +107,7 @@ h2 {
   width: 1150px;
   margin: 0 auto;
   margin-top: 104px;
+  margin-bottom: 54px;
 }
 .product__title {
   margin-bottom: 42px;
@@ -255,4 +256,51 @@ input {
   border-radius: 3px;
   font-size: 14px;
   color: #FFFFFF;
+}
+
+.containerqlt {
+  height: 436px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quality {
+  margin-bottom: 300px;
+}
+.quality__top {
+  background: no-repeat;
+  background-image: url("../img/jpeg/garantia.png");
+  padding: 35px 0px 70px 0px;
+}
+.quality__title {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.quality__list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 218px;
+}
+.quality__list-item {
+  text-align: center;
+}
+.quality__btn {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background: #3B3A63;
+  color: #ffffff;
+  padding: 18px 54px;
+}
+.quality__btn .quality__btn-img {
+  margin-right: 22px;
+}
+
+.item__icon {
+  margin-bottom: 40px;
+  height: 90px;
+}
+.item__description {
+  color: white;
+  width: 170px;
 }
